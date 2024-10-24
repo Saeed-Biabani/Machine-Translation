@@ -21,6 +21,27 @@
 ## Getting Started
 - Project Structure
 ```
+.
+├── src
+│   ├── nn
+│   │   ├── attention.py
+│   │   ├── decoder.py
+│   │   ├── dropout.py
+│   │   ├── embedding.py
+│   │   ├── encoder.py
+│   │   ├── __init__.py
+│   │   └── transformer.py
+│   ├── dataset.py
+│   ├── misc.py
+│   ├── schedule.py
+│   ├── tokenizer.py
+│   ├── tracker.py
+│   ├── trainutils.py
+│   └── vocab.py
+├── build.py
+├── config.py
+├── inference.py
+└── main.py
 ```
 
 ## Architecture
